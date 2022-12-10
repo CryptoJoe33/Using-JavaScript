@@ -56,7 +56,7 @@ function recalculate(){
 // INSERT YOUR CODE HERE
 var modelButton = document.getElementById("model-button");
 
-var switchModel = document.getElementById("model-button");
+/*var switchModel = document.getElementById("model-button"); both modelButton and switchModel do the same thing*/
 
 if (modelButton){
     modelButton.addEventListener("click", changeModel);
