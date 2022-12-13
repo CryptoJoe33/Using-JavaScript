@@ -33,7 +33,7 @@ function recalculate(){
     if (modelName == "XYZ") {
         cost = duration * 100;
         costLabel.innerHTML = cost; 
-    } else{
+    } else {
         cost = duration * 213;
         costLabel.innerHTML = cost;
     }
@@ -55,8 +55,6 @@ function recalculate(){
 
 // INSERT YOUR CODE HERE
 var modelButton = document.getElementById("model-button");
-
-/*var switchModel = document.getElementById("model-button"); both modelButton and switchModel do the same thing*/
 
 if (modelButton){
     modelButton.addEventListener("click", changeModel);
